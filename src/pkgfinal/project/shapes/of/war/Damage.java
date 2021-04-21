@@ -5,11 +5,11 @@ package pkgfinal.project.shapes.of.war;
 
 public class Damage{
 
-    private String name;
-    private double HP;
-    private double CurrentHP;
-    private double ATK;
-    private double DEF;
+    protected String name;
+    protected double HP;
+    protected double CurrentHP;
+    protected double ATK;
+    protected double DEF;
 
   
     public Damage(String createName, int createMaxHP, int createSTR, int createDEF) {
