@@ -2,7 +2,7 @@
 package pkgfinal.project.shapes.of.war;
 
 
-public class Minion {
+public class Minion extends Damage {
     protected int hp;
     protected int maxhp;
     protected int damage;
