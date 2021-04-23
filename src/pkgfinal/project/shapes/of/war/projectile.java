@@ -1,11 +1,11 @@
 import java.awt.*;
 
 
-public class Bullet extends MapThing
+public class Bullet 
 {
     public Bullet( double x, double y, double vx, double vy )
     {
-        super( x, y, 3 );
+        
         this.vx = vx;
         this.vy = vy;
     }
